@@ -35,7 +35,7 @@ Cada archivo debe incluir:
 
 La fecha de entrega será: 15-11-2025. No se aceptarán entregas fuera de plazo sin justificación válida.
 
-## Ejemplor de Entrega de ejercicios:
+## Ejemplo de Entrega de ejercicios:
 
 ```cpp
 // Nombre del estudiante: Juan Pérez
