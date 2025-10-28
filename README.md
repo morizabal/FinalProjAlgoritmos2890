@@ -8,6 +8,7 @@ Cada estudiante debe:
 
 - Subir **tres ejercicios distintos** en C++.
 - Asegurarse de que los ejercicios **no estén repetidos**.
+- Debe crear una carpeta donde estará otro archivo Readme.md con la descripción de cada archivo y los archivos de código cpp.
 - Incluir una **descripción clara** en cada archivo.
 - Enviar una **solicitud de commit (pull request)** con los tres archivos y una descripción detallada.
 
