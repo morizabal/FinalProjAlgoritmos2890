@@ -20,7 +20,7 @@ Calcula y muestra todos los números de tres cifras que son iguales a la suma de
 
 ---
 
-## ➕ 3️⃣ sumaPrimerosCincuentaEnteros.cpp
+## sumaPrimerosCincuentaEnteros.cpp
 **Descripción:**  
 Calcula la suma de los primeros 50 números enteros positivos.  
 **Resultado esperado:**  
