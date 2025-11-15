@@ -1,71 +1,86 @@
-# Ejercicio de Práctica Final - Algoritmos 2890
+# Ejercicios en C++ – Segundo Ciclo, Algoritmos Sección B Sábado
 
-Este repositorio contiene los ejercicios de práctica final del curso **Algoritmos 2890** de la Universidad Mariano Gálvez.
+Este repositorio contiene mis tres ejercicios resolviendo distintos problemas en C++.
+Cada ejercicio incluye:
 
-## 📌 Instrucciones Generales
+Nombre del estudiante
+Número y título del ejercicio
+Descripción del problema
+Entradas esperadas
+Salidas esperadas
+Código fuente (.cpp)
 
-Cada estudiante debe:
+## Ejercicio 4.9 – Cálculo de la Hipotenusa y Ángulo (Teorema de Pitágoras)
+📌 Descripción del problema
 
-- Subir **tres ejercicios distintos** en C++.
-- Asegurarse de que los ejercicios **no estén repetidos**.
-- Debe crear una carpeta donde estará otro archivo Readme.md con la descripción de cada archivo y los archivos de código cpp.
-- Incluir una **descripción clara** en cada archivo.
-- Enviar una **solicitud de commit (pull request)** con los tres archivos y una descripción detallada.
+Este programa calcula la hipotenusa de un triángulo rectángulo usando el Teorema de Pitágoras.
+Luego obtiene el ángulo opuesto a uno de los catetos utilizando la función asin() de math.h.
 
-## 📁 Estructura de los Archivos
+La función asin() devuelve el resultado en radianes, por lo que se convierte a grados.
 
-Cada archivo debe incluir:
+🔢 ##Entrada esperada
 
-- Nombre del estudiante
-- Número y título del ejercicio
-- Descripción del problema
-- Entrada esperada
-- Salida esperada
-- Código funcional en C++
+Valor del cateto A
 
-## 📊 Ponderación del Ejercicio Final (15 puntos)
+Valor del cateto B
 
-| Criterio                                      | Puntos |
-|----------------------------------------------|--------|
-| Originalidad de los ejercicios               | 5 pts  |
-| Correcta implementación y funcionalidad      | 5 pts  |
-| Solicitud de commit clara y bien documentada | 3 pts  |
-| Organización y formato del código            | 2 pts  |
+🔣 ##Salida esperada
 
-## 📅 Fecha Límite
+Longitud de la hipotenusa
 
-La fecha de entrega será: 15-11-2025. No se aceptarán entregas fuera de plazo sin justificación válida.
+Valor del ángulo en grados
 
-## Ejemplo de Entrega de ejercicios:
+## Ejercicio 3.3 – Sistema de Ecuaciones Lineales 2×2
+📌 Descripción del problema
 
-```cpp
-// Nombre del estudiante: Juan Pérez
-// Ejercicio #: 1
-// Nombre del ejercicio: Suma de números pares
-// Descripción: Este programa solicita al usuario ingresar una cantidad de números enteros y calcula la suma de aquellos que son pares.
-// Entrada esperada: Un número entero que indica cuántos valores se ingresarán, seguido de esa cantidad de números enteros.
-// Salida esperada: La suma total de los números pares ingresados.
+Se resuelve un sistema de dos ecuaciones lineales con dos incógnitas:
 
-#include <iostream>
-using namespace std;
+a*x + b*y = c  
+d*x + e*y = f
 
-int main() {
-    int n, num, suma = 0;
-    cout << "Ingrese la cantidad de números: ";
-    cin >> n;
+El sistema tiene solución única si:
 
-    for (int i = 0; i < n; i++) {
-        cout << "Ingrese un número: ";
-        cin >> num;
-        if (num % 2 == 0) {
-            suma += num;
-        }
-    }
+(a * e) – (b * d) ≠ 0
 
-    cout << "La suma de los números pares es: " << suma << endl;
-    return 0;
-}
-```
+La solución para x y y se obtiene aplicando las fórmulas correspondientes.
 
-**Repositorio oficial:**  
-[https://github.com/morizabal/FinalProjAlgoritmos2890.git](https://github.com/morizabal/FinalProjAlgoritmos2890.git)
+🔢 ##Entrada esperada
+
+Valores de: a, b, c, d, e, f
+
+🔣 ##Salida esperada
+
+Valor de x
+
+Valor de y
+
+Mensaje indicando si el sistema tiene o no solución única
+
+##Ejercicio 3.4 – Fuerza de Gravitación Universal
+📌 Descripción del problema
+
+Se declara la constante de gravitación universal:
+
+Luego se ingresan:
+
+masa1
+
+masa2
+
+distancia
+
+El programa aplica la fórmula:
+F = G * (masa1 * masa2) / (distancia²)
+
+🔢 ##Entrada esperada
+
+Masa del primer objeto
+
+Masa del segundo objeto
+
+Distancia entre ambos
+
+🔣 ##Salida esperada
+
+Fuerza de atracción gravitacional
+
