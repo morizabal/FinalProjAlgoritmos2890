@@ -83,4 +83,3 @@ Distancia entre ambos
 🔣 ##Salida esperada
 
 Fuerza de atracción gravitacional
-
