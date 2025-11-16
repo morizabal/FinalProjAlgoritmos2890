@@ -1,0 +1,23 @@
+using namespace std;
+
+int main() {
+    // variables para guardar los datos;
+    double longitud, anchura;
+
+    // pedir los datos al usuario
+    cout << "Ingrese la longitud de la habitacion: ";
+    cin >> longitud;
+
+    cout << "Ingrese la anchura de la habitacion: ";
+    cin >> anchura;
+
+    // calcular superficie y peímetro
+    double superficie = longitud * anchura;
+    double perimetro = 2 * (longitud + anchura);
+
+    
+    cout << "La superficie es: " << superficie << endl;
+    cout << "El perimetro es: " << perimetro << endl;
+
+    return 0;
+}

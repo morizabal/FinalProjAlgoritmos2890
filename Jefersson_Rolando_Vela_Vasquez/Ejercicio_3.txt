@@ -1,0 +1,30 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+bool esPalindromo(string texto) {
+    int inicio = 0;
+    int fin = texto.length() - 1;
+    while (inicio < fin) {
+        if (texto[inicio] != texto[fin]) {
+            return false;
+        }
+        inicio++;
+        fin--;
+    }
+    return true;
+}
+
+int main() {
+    string palabra;
+    cout << "Ingrese una palabra: ";
+    cin >> palabra;
+
+    if (esPalindromo(palabra)) {
+        cout << "La palabra SI es un palindromo" << endl;
+    } else {
+        cout << "La palabra NO es un palindromo" << endl;
+    }
+
+    return 0;
+}
