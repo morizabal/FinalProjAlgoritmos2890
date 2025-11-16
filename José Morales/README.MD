@@ -18,4 +18,4 @@ Escribir una sentencia if–else que evalúe el valor de la variable nota y mues
  Sin embargo, los años múltiplos de 100 sólo son bisiestos cuando además son múltiplos de 400 (por ejemplo, 1800 no lo es, 2000 sí).
 
 Descripcion: 
-Escribir una sentencia if–else que evalúe el valor de la variable nota y muestre:
+El programa debe pedir al usuario un año y determinar si es bisiesto o no bisiesto.
